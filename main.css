@@ -18,16 +18,13 @@ header {
     
 }
 
+h4{
+    text-align: center;
+}
+
 #logo {
     max-width: 200px;
 }
-
-/* #logo {
-    max-width: 300px;
-    display: block;
-    padding: 35px;
-    
-} */
 
 .container {
     display: flex;
