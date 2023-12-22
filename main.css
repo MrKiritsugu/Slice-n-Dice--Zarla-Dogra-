@@ -39,8 +39,8 @@ h4{
 }
 
 .content {
-    width: 80%;
-    max-width: 300px;
+    width: 75%;
+    max-width: 250px;
     object-fit: cover;
     border-radius: 10px;
 }
