@@ -18,13 +18,25 @@ header {
     
 }
 
-h4{
-    text-align: center;
+h3{
     font-family: "Inknut Antiqua", serif;
     font-weight: 700;
     font-style: normal;
 }
 
+p{
+    text-align: left;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+li{
+    text-align: left;
+    font-family: "Inknut Antiqua", serif;
+    font-weight: 200;
+    font-style: normal;
+}
 #logo {
     max-width: 200px;
 }
@@ -32,18 +44,21 @@ h4{
 .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
     justify-content: center;
     align-items: center;
     gap: 16px;
     max-width: 1400px;
-    margin: 0 auto;
     padding: 20px 10px;
+    margin: auto;
 }
 
 .content {
-    width: 75%;
-    max-width: 250px;
+    width: 100%;
     object-fit: cover;
     border-radius: 10px;
+}
+
+.race_img {
+    float: left;
 }
