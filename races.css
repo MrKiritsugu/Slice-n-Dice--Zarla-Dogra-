@@ -41,6 +41,10 @@ li{
     max-width: 200px;
 }
 
+.race_main{
+    display: grid;
+}
+
 .container {
     display: flex;
     flex-direction: row;
@@ -59,6 +63,21 @@ li{
     border-radius: 10px;
 }
 
-.race_img {
-    float: left;
+.race{
+    position: relative;
+}
+
+.race_exp_container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 500px;
+}
+
+.race_stats_container{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    top: 800px;
+    left: 500px; 
 }
